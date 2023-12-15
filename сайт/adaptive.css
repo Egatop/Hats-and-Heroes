@@ -1,0 +1,105 @@
+@media (max-width: 1200px){  
+    html, body {width:100%; overflow-x:hidden}
+    .info__switch:checked~.info__body, .info__switch2:checked~.info__body3 {
+        margin-top:1%;
+        max-width: 60%;
+        font-size: 1.2em;
+        max-height: 200vh;
+      }
+      .mh {
+        position: relative;
+        left:10%;
+      }
+      .info__switch2:checked~.info__body2, .info__switch2:checked~.info__body3 {
+        margin-top:1%;
+        max-width: 60%;
+        font-size: 1.2em;
+        max-height: 200vh;
+      }
+      .logo3{
+        position: relative;
+        right: 20%;
+      }
+      .info__switch3:checked~.info__body3, .info__switch2:checked~.info__body3 {
+        margin-top:1%;
+        max-width: 65%;
+        font-size: 1.2em;
+        max-height: 200vh;
+      }
+      .baner1 h1{
+        font-size: 1.6em;
+        left:1%;
+      }
+      .info__switch4:checked~.info__body4, .info__switch2:checked~.info__body3 {
+        margin-top:1%;
+        max-width: 65%;
+        font-size: 1.2em;
+        max-height: 200vh;
+      }
+      .g1 {
+        position: relative;
+        left:12%;
+      }
+      footer {
+        height: 25vh;
+      }
+      footer p{
+        width:15%;
+    }
+  }
+  @media (max-width: 800px){  
+    html, body {width:100%; overflow-x:hidden}
+    .info__switch:checked~.info__body, .info__switch2:checked~.info__body3 {
+        margin-top:1%;
+        max-width: 60%;
+        font-size: 1.1em;
+        max-height: 200vh;
+      }
+      .mh {
+        position: relative;
+        left:10%;
+      }
+      .info__switch2:checked~.info__body2, .info__switch2:checked~.info__body3 {
+        margin-top:1%;
+        max-width: 60%;
+        font-size: 1.1em;
+        max-height: 200vh;
+      }
+      .logo3{
+        position: relative;
+        right: 40%;
+      }
+      .info__switch3:checked~.info__body3, .info__switch2:checked~.info__body3 {
+        margin-top:1%;
+        max-width: 65%;
+        font-size: 1em;
+        max-height: 200vh;
+      }
+      .baner1 h1{
+        font-size: 1.5em;
+        left:1%;
+      }
+      .info__switch4:checked~.info__body4, .info__switch2:checked~.info__body3 {
+        margin-top:1%;
+        max-width: 65%;
+        font-size: 1.1em;
+        max-height: 200vh;
+      }
+      .g1 {
+        position: relative;
+        left:20%;
+      }
+      footer {
+        height: 25vh;
+      }
+      footer p{
+        width:15%;
+    }
+    .baner h1{
+        font-size: 1.5em;
+    }
+    .baner4 img{
+        position: relative;
+        right: 140%;
+    }
+  }

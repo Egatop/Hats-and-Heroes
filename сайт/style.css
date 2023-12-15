@@ -1,0 +1,352 @@
+@font-face {
+    font-family: 'EntezareZohoor2';
+    src:url('fonts/Pentagra.ttf') ;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+html{
+    overflow-x: hidden;
+}
+/* пропишите стили */
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-image: url(images/hat.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+    display: table;
+    min-height: 100vh;
+
+}
+main{
+    display: table-row;
+    /* Чтобы ряд занимал всё оставшееся пространство, так как табличная разметка не позволит ему вытолкнуть header и footer */
+    height: 100%;
+}
+header{
+    font-size: 22px;
+    background-color:#5A89B9;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 900;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.headerInner {
+    display: flex;
+    justify-content: space-around;
+}
+.info__switch, .info__switch2 {
+    display: none;
+  }
+.info__body,  .info__body3 {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.4s;
+  }
+  .info__body_1 {
+    font-size: 1.5em;
+  }
+  .info__switch:checked~.info__body, .info__switch2:checked~.info__body3 {
+    margin-top:1%;
+    max-width: 55%;
+    font-size: 1.5em;
+    max-height: 200vh;
+  }
+  
+  .info__headline::before, .info__headline2::before {
+    content: "";
+    position: absolute;
+    left: -18px;
+    top: 4px;
+    border: 6px solid #39739d;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    
+  }
+
+
+nav {
+    width:80%;
+    position: relative;
+}
+ul {
+    display:flex;
+    justify-content:space-between;
+}
+model-viewer{
+    z-index: 500;
+}
+
+li {
+    list-style:none;
+}
+a {
+    text-decoration:none;
+    color:#000;
+}
+.baner {
+    font-family: 'EntezareZohoor2';
+    margin-top:10%;
+    display:flex;
+    justify-content: space-evenly;
+    padding-left: 15vh;
+    padding-right: 5vh;
+    width: 100%;
+    height: 75vh;
+    flex-shrink: 0;
+    border-radius: 36px;
+    background: linear-gradient(80deg, #5B52A3 1.08%, #40B8EA 100%);
+}
+.info__switch2, .info__switch2 {
+    display: none;
+  }
+.info__body2,  .info__body3 {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.4s;
+  }
+  .info__body_2 {
+    font-size: 1.5em;
+  }
+  .info__switch2:checked~.info__body2, .info__switch2:checked~.info__body3 {
+    margin-top:1%;
+    max-width: 55%;
+    font-size: 1.5em;
+    max-height: 200vh;
+  }
+  
+  .info__headline2::before, .info__headline2::before {
+    content: "";
+    position: absolute;
+    left: -18px;
+    top: 4px;
+    border: 6px solid #39739d;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    
+  }
+.baner1  {
+    margin-top: 5%;
+    display:flex;
+    flex-direction: column;
+    font-family: 'EntezareZohoor2';
+    padding-left: 15vh;
+    padding-right: 5vh;
+    width: 100%;
+    height: 90vh;
+    flex-shrink: 0;
+    border-radius: 66px;
+    background: linear-gradient(80deg, #4963d8 1.08%, #15abc5 100%);
+}
+.baner4  {
+    margin-top: 5%;
+    display:flex;
+    flex-direction: column;
+    font-family: 'EntezareZohoor2';
+    padding-left: 50vh;
+    width: 100%;
+    height: 79vh;
+    flex-shrink: 0;
+    border-radius: 66px;
+    background: linear-gradient(80deg, #4963d8 1.08%, #15abc5 100%);
+}
+.info__switch4, .info__switch4 {
+    display: none;
+  }
+.info__body4,  .info__body4 {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.4s;
+  }
+  .info__body_4 {
+    font-size: 1.5em;
+  }
+  .info__switch4:checked~.info__body4, .info__switch4:checked~.info__body4 {
+    margin-top:1%;
+    max-width: 55%;
+    font-size: 1.3em;
+    max-height: 200vh;
+  }
+  
+  .info__headline4::before, .info__headline4::before {
+    content: "";
+    position: absolute;
+    left: -18px;
+    top: 4px;
+    border: 6px solid #39739d;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    
+  }
+.baner3 {
+    margin-top: 5%;
+    font-family: 'EntezareZohoor2';
+    padding-left: 15vh;
+    padding-right: 5vh;
+    width: 100%;
+    height: 75vh;
+    flex-shrink: 0;
+    border-radius: 66px;
+    background: linear-gradient(80deg, #4963d8 1.08%, #15abc5 100%);
+}
+#ar-prompt{
+    display: none;
+}
+model-viewer {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    right: 20%;
+    bottom: 20%;
+  }
+  .info__switch3, .info__switch3 {
+    display: none;
+  }
+.info__body3,  .info__body3 {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.4s;
+  }
+  .info__body_3 {
+    font-size: 1.5em;
+  }
+  .info__switch3:checked~.info__body3, .info__switch2:checked~.info__body3 {
+    margin-top:1%;
+    max-width: 55%;
+    font-size: 1.5em;
+    max-height: 200vh;
+  }
+  
+  .info__headline3::before, .info__headline3::before {
+    content: "";
+    position: absolute;
+    left: -18px;
+    top: 4px;
+    border: 6px solid #39739d;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    
+  }
+.txt {
+    display: flex;
+    justify-content: space-around;
+}
+.baner1 h1 {
+    position: relative;
+    left:15%;
+ 
+}
+.baner4 h1 {
+    position: relative;
+    left:15%;
+ 
+}
+#Minecraft3DObj {
+    z-index: 999;
+}
+.logo .logo1 .logo3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo1  {
+    margin-top: 4%;
+}
+.logo{
+    margin-top:3%;
+}
+.lg h2{
+    font-size: 30px;
+}
+.lg  {
+    margin-top:7%;
+}
+.logo3 {
+    margin-top: 2%;
+}
+.logo2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.logo2 p{
+    max-width: 50%;
+    font-size: 1.5em;
+}
+.logo h1{
+    font-size:2.2em;
+}
+.img img{
+    margin-top: 10%;
+    max-width: 100%;
+    max-height: 100%;
+    width:340vh;
+    height: 65vh;
+    position: relative;
+    right: 30vh;
+}
+.img2 img{
+    margin-top: 10%;
+    max-width: 100%;
+    max-height: 100%;
+    width:390vh;
+    height: 65vh;
+    position: relative;
+    right: 30vh;
+}
+.baner1 h2{
+    font-family: 'EntezareZohoor2';
+    font-size: 35px;
+}
+.baner4 h2{
+    font-family: 'EntezareZohoor2';
+    font-size: 35px;
+}
+footer {
+    font-family: 'EntezareZohoor2';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 7%;
+    background-color:rgb(29, 26, 26) ;
+    width: 100%;
+    height: 20vh;
+    color: rgb(65, 52, 52);
+}
+footer p{
+    width:8%;
+}
+video {
+    z-index: 700;
+    
+    width: 80%;
+}
+.vid {
+    margin-top: 5%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
